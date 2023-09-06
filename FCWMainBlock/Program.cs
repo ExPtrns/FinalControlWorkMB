@@ -2,7 +2,7 @@
 {
     for (int i = 0; i < array.Length; i++)
     {
-        Console.Write($"Введите первую {i + 1} строку массива: ");
+        Console.Write($"Введите {i + 1} строку массива: ");
         array[i] = Console.ReadLine();
     }
 }
